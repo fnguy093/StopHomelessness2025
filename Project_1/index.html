@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent is Overrated</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #6e6e6e; /* Dark background */
+            overflow: hidden;
+            font-family: 'Nunito', sans-serif; /* Consistent font */
+        }
+
+        #cover-page {
+            position: relative;
+            text-align: center;
+            width: 100%;
+            max-width: 800px; /* Limit width for better readability */
+            padding: 20px;
+        }
+
+        #header {
+            position: relative; /* Changed to relative */
+            font-size: 48px; /* Larger font size */
+            color: white;
+            font-weight: bold;
+            margin-bottom: 20px; /* Space between title and image */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a text shadow */
+        }
+
+        #cover-image {
+            max-width: 100%; /* Responsive image */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px; /* Rounded corners for the image */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Add a shadow to the image */
+        }
+
+        #start-button {
+            font-family: 'Nunito', sans-serif;
+            padding: 15px 30px;
+            font-size: 20px;
+            background: rgba(255, 255, 255, 0.3);
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s; /* Add transform for a button press effect */
+            color: white; /* White text */
+            margin-top: 30px; /* Space between image and button */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add a shadow to the button */
+        }
+
+        #start-button:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        #start-button:active {
+            transform: scale(0.95); /* Button press effect */
+        }
+    </style>
+</head>
+<body>
+    <div id="cover-page">
+        <div id="header">Rent is Overrated</div>
+        <img src="cover.png" alt="Rent is Overrated Cover" id="cover-image">
+        <button id="start-button">Start Game</button>
+    </div>
+    <script>
+        document.getElementById('start-button').addEventListener('click', function() {
+            window.location.href = 'game.html'; // Redirect to the main game page
+        });
+    </script>
+</body>
+</html>

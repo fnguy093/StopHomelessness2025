@@ -1,0 +1,95 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+button{
+    size: 100px;
+    color:  rgba(0, 0, 0, 0 );;
+    border-radius: 15px;
+    position: center;
+    background-color: rgb(255, 255, 255, 0.8);;
+}
+body {
+    font-family: Nunito;
+    background-color: #808080;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*
+#game-container {
+    background-color: #222;
+    border: 2px solid #666;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+*/
+
+#game-container {
+    background-color: rgb(255, 255, 255, 0.8); /* White with transparency */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    margin: 20px; /* Outer spacing */
+    border: 1px solid rgba(122, 122, 122, 0.3); /* Light border for clarity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    position: fixed; /* Fixes the box at the top */
+    top: 50px; /* Distance from the top */
+}
+
+#story-output {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    overflow-y: auto;
+    max-height: 400px;
+    padding-right: 10px;
+}
+
+#choices-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.choice-button {
+    background-color: #d4d4d4;
+    color: #000000;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    font-family: Nunito;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.choice-button:hover {
+    background-color: #838383;
+}
+
+.choice-button:active{
+  background-color: #666;
+}
+
+/* Add a class for day headers */
+.day-header {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+#story-output p {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #727272; /* Example color */
+}
