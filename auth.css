@@ -1,0 +1,140 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    border-radius: 30px;
+    background-color: #fff;
+    width: 579px;
+    height: 467px;
+}
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    background-color: #bb8588;
+    width: 448px;
+    height: 68px;
+}
+.submit {
+    position: absolute;
+    top: 20px;
+    left: 76px;
+    font-weight: 800;
+    display: inline-block;
+    width: 296px;
+    height: 27px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 347px;
+    left: 67px;
+    width: 448px;
+    height: 68px;
+    text-align: center;
+}
+.group-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #757575;
+    box-sizing: border-box;
+    width: 448px;
+    height: 68px;
+}
+.enter-your-username {
+    position: absolute;
+    top: 21px;
+    left: 30px;
+    font-weight: 600;
+    display: inline-block;
+    width: 267px;
+    height: 25px;
+}
+.rectangle-container {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    width: 448px;
+    height: 68px;
+}
+.enter-your-password {
+    position: absolute;
+    top: 19px;
+    left: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 267px;
+    height: 29.9px;
+}
+.group-div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 448px;
+    height: 68px;
+}
+.group-wrapper {
+    position: absolute;
+    top: 95px;
+    left: 0px;
+    width: 448px;
+    height: 68px;
+}
+.group-parent {
+    position: absolute;
+    top: 158px;
+    left: 67px;
+    width: 449px;
+    height: 163px;
+    color: #757575;
+}
+.line-div {
+    position: absolute;
+    top: 105.5px;
+    left: -0.5px;
+    border-top: 1px solid #bb8588;
+    box-sizing: border-box;
+    width: 580px;
+    height: 1px;
+}
+.log-in {
+    position: absolute;
+    top: 35px;
+    left: calc(50% - 45px);
+    font-size: 30px;
+    font-weight: 800;
+    color: #5a5a5a;
+    display: inline-block;
+    width: 91px;
+    height: 48px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 182px;
+    left: 350px;
+    width: 580px;
+    height: 467px;
+}
+.macbook-air-7 {
+    width: 100%;
+    position: relative;
+    background-color: #e5b5b8;
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #f3f3f3;
+    font-family: 'Nunito Sans';
+}
+
